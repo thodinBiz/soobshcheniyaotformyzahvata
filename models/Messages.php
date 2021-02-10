@@ -10,6 +10,8 @@ use Model;
  * @property string $phone
  * @property string $message
  * @property string $utm
+ * @property string $url
+ * @property string $element
  * @property bool   $is_sanded
  * @property string $form
  */

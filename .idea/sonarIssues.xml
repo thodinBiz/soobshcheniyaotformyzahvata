@@ -13,6 +13,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/models/Messages.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/CatchFormModal.php">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
