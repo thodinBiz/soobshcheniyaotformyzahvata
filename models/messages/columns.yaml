@@ -1,0 +1,38 @@
+columns:
+    created_at:
+        label: Дата
+        type: datetime
+        searchable: true
+        sortable: true
+        format: d.m.Y
+    name:
+        label: Имя
+        type: text
+        searchable: true
+    email:
+        label: E-mail
+        type: text
+        searchable: true
+    phone:
+        label: Телефон
+        type: text
+        searchable: true
+        sortable: true
+    message:
+        label: Сообщение
+        type: text
+        searchable: true
+    is_sanded:
+        label: Успешно
+        type: switch
+        searchable: false
+        sortable: true
+    url:
+        label: URL
+        type: text
+        searchable: true
+        sortable: true
+    element:
+        label: 'Куда кликнули'
+        type: text
+        searchable: true

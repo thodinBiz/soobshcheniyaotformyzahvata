@@ -1,0 +1,12 @@
+plugin:
+    name: 'thodin.soobshcheniyaotformyzahvata::lang.plugin.name'
+    description: 'thodin.soobshcheniyaotformyzahvata::lang.plugin.description'
+    author: Thodin
+    icon: oc-icon-book
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Сообщения
+        url: thodin/soobshcheniyaotformyzahvata/messages
+        icon: icon-book
+        order: '1'

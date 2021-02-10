@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table thodin_soobshcheniyaotformyzahvata_messages'
+    - builder_table_create_thodin_soobshcheniyaotformyzahvata_messages.php
+1.0.3:
+    - 'Updated table thodin_soobshcheniyaotformyzahvata_messages'
+    - builder_table_update_thodin_soobshcheniyaotformyzahvata_messages.php
+1.0.4:
+    - 'Updated table thodin_soobshcheniyaotformyzahvata_messages'
+    - builder_table_update_thodin_soobshcheniyaotformyzahvata_messages_2.php
+1.0.5:
+    - 'Updated table thodin_soobshcheniyaotformyzahvata_messages'
+    - builder_table_update_thodin_soobshcheniyaotformyzahvata_messages_3.php
