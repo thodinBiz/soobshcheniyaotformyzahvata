@@ -11,14 +11,30 @@ namespace Thodin\SoobshcheniyaOtFormyZahvata\Classes;
 use Thodin\SoobshcheniyaOtFormyZahvata\Models\Messages;
 use Vdomah\Telegram\Classes\TelegramApi;
 
+/**
+ * Class Messager
+ * @package Thodin\SoobshcheniyaOtFormyZahvata\Classes
+ */
 class Messager
 {
 
+    /**
+     *
+     */
     const TELEGRAM_CHAT_ID = '-1001408236650';
+    /**
+     *
+     */
     const BOT_AUTH = '1274003124:AAEe9rqhaL0Oan-MiBMvA41wN--IXXTQQOM';
 
+    /**
+     * @var Messager
+     */
     public static $_instance;
 
+    /**
+     * @var array
+     */
     private $cookieNames = [
         'utm_campaign',
         'utm_source',
@@ -32,7 +48,7 @@ class Messager
      *
      * @throws \Exception
      */
-    public function sendMessage($message)
+    public function sendMessage(Messages $message): void
     {
         $text = $this->buildText($message);
 
@@ -43,7 +59,7 @@ class Messager
     /**
      * @return array
      */
-    protected function getUTMCookies()
+    protected function getUTMCookies(): array
     {
         $matchedCookies = [];
 
@@ -63,7 +79,7 @@ class Messager
     /**
      * @return Messager
      */
-    public static function instance()
+    public static function instance(): Messager
     {
         if (!self::$_instance)
         {
@@ -83,13 +99,14 @@ class Messager
     {
         $text = "
 Имя: {$message->name}
-Телефон: +{$message->phone}
+Телефон: {$message->phone}
 Почта: {$message->email}
 Сообщение: {$message->message}
 
 
 Форма: {$message->form}
-{$message->url}
+Захват: {$message->element}
+URL:  {$message->url}
 
 UTM Метки
 ";
@@ -110,7 +127,7 @@ UTM Метки
      *
      * @return bool|string
      */
-    public function sendNotifyToTelegram($message)
+    public function sendNotifyToTelegram(String $message)
     {
         $curl = curl_init();
         curl_setopt_array($curl, [
@@ -135,5 +152,30 @@ UTM Метки
         curl_close($curl);
 
         return $result;
+    }
+
+    /**
+     * @param string $phone
+     *
+     * @return string|string[]|null
+     */
+    public function buildPhone(String $phone): String
+    {
+        $phone = preg_replace('#[^\d]+#s', '', $phone);
+
+        if (mb_strlen($phone) == 11)
+        {
+            $phone_formatted = mb_substr($phone, 0, 1);
+            $phone_formatted = ($phone_formatted == '7' ? '+'
+                    . $phone_formatted : $phone_formatted) . ' '
+                . mb_substr($phone, 1, 3) . ' '
+                . mb_substr($phone, 4, 3) . '-'
+                . mb_substr($phone, 7, 2) . '-'
+                . mb_substr($phone, 9, 2);
+
+            $phone = $phone_formatted;
+        }
+
+        return $phone;
     }
 }
