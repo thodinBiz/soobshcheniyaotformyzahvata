@@ -97,7 +97,9 @@ class Messager
      */
     private function buildText(Messages $message)
     {
-        $text = "
+        $parser = new UTMParser();
+
+        return "
 Имя: {$message->name}
 Телефон: {$message->phone}
 Почта: {$message->email}
@@ -106,20 +108,10 @@ class Messager
 
 Форма: {$message->form}
 Захват: {$message->element}
-URL:  {$message->url}
-
-UTM Метки
-";
-
-
-        $matchedCookies = $this->getUTMCookies();
-
-        foreach ($matchedCookies as $k => $v)
-        {
-            $text .= $k . "\t" . $v . "\n";
-        }
-
-        return $text;
+URL:  {$message->url}"
+            . "\n\nUTM Метки текущие\n" . $parser->join($parser->getCurrent())
+            . "\n\nUTM Метки первые\n" . $parser->join($parser->getFirst())
+            . "\n\nТочка входа\n" . $parser->join($parser->getFirstAdd());
     }
 
     /**
@@ -166,12 +158,7 @@ UTM Метки
         if (mb_strlen($phone) == 11)
         {
             $phone_formatted = mb_substr($phone, 0, 1);
-            $phone_formatted = ($phone_formatted == '7' ? '+'
-                    . $phone_formatted : $phone_formatted) . ' '
-                . mb_substr($phone, 1, 3) . ' '
-                . mb_substr($phone, 4, 3) . '-'
-                . mb_substr($phone, 7, 2) . '-'
-                . mb_substr($phone, 9, 2);
+            $phone_formatted = ($phone_formatted == '7' ? '+' . $phone_formatted : $phone_formatted) . ' ' . mb_substr($phone, 1, 3) . ' ' . mb_substr($phone, 4, 3) . '-' . mb_substr($phone, 7, 2) . '-' . mb_substr($phone, 9, 2);
 
             $phone = $phone_formatted;
         }
