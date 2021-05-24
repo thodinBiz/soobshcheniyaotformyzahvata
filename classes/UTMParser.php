@@ -97,12 +97,12 @@ class UTMParser
     }
 
     /**
-     * @param string $sSbString
-     * @param array  $map
+     * @param string|null $sSbString
+     * @param array       $map
      *
      * @return array|null
      */
-    protected function parse(string $sSbString, array $map)
+    protected function parse($sSbString, array $map)
     {
         if (empty($sSbString))
         {
@@ -140,18 +140,23 @@ class UTMParser
     }
 
     /**
-     * @param array $array
+     * @param array|null $array
      *
      * @return string
      */
-    public function join(array $array)
+    public function join($array)
     {
         $out = '';
-        foreach ($array as $k => $v)
+
+        if (is_array($array))
         {
-            $out .= $k . " = " . $v . "\n";
+            foreach ($array as $k => $v)
+            {
+                $out .= $k . " = " . $v . "\n";
+            }
         }
 
         return $out;
     }
 }
+

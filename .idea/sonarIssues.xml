@@ -8,17 +8,302 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/classes/Messager.php">
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/classes/UTMParser.php">
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/assets/css/styles.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/assets/css/styles.css.map">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/_card.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/Factories/Payments/BillingFactory.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/Managers/Finance/Currency/Rates.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/Managers/Finance/Currency/RatesManager.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/_namespaces/libraries/Finance/CentralBankOfRussia/CentralBankOfRussiaAPI.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/composer/composer.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/config/autoload.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/config/development/database.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/config/migration.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/config/testing/database.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/helpers/dtc_helper.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/interfaces/billing/BillingInterface.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/libraries/Finance/CentralBankOfRussia/CentralBankOfRussiaAPI.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/libraries/Finance/CentralBankOfRussia/DTO/Currency.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/libraries/Finance/CentralBankOfRussia/DTO/CurrencyRate.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/libraries/Places_DataTableBuilder.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/libraries/Social/SocialFB.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/migrations/20210213175252_create_table_currency_exchange_rate.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/migrations/20210301222929_create_table_users_social_facebook_deletions.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/CBR/CbrCurrency.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/CBR/Currency.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/CBR/CurrencyModel.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/CBR/ExchangeRateModel.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/CbrCurrency.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/Exchange_rate.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Currency/Exchange_rate_model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Payments_model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Payments_notes_model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/models/Social/Facebook/UserDataDeletionModel.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/admin/controllers/Manager_places.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/admin/controllers/Places.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/api_player_v1/models/Api_player_cabinet_model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/api_player_v1/models/Api_player_model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/cron/controllers/Every_minute.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/jobs_queue/controllers/BaseController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/jobs_queue/controllers/SendCheckFZ54.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/jobs_queue/controllers/TelegramNotification.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/social/controllers/FacebookController.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/social/views/check_deletion_request.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/modules/tests/controllers/Cbr.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/third_party/MX/Cli.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/third_party/MX/Loader.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/third_party/MX/Model.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/traits/ApiApp/UserActionNotification.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/views/backend/menu/places.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/views/social/header.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/application/views/social/readme.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/assets/social/style.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/index.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/PHP5612/HOME/DEV/www/clients/2016/miramix/GUSLI/web/system/database/DB_driver.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../fz54.local/public/index.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../fz54.local/public/second.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../fz54.local/public/vendor/lamoda/atol-client/src/V4/AtolApi.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../fz54.local/public/vendor/payprocessing/atol-sdk-api-v4/src/clients/PostClient.php">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../../config/cookie.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../copyproperty/controllers/copypropertyvaluelink/config_form.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../copyproperty/controllers/copypropertyvaluelink/config_list.yaml">
           <value>
             <set />
           </value>
@@ -43,6 +328,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/assets/css/styles.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../themes/megallp/assets/js/app.js">
           <value>
             <set />
@@ -58,7 +348,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/pages/catalog_level_1_type.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/pages/catalog_level_2_category.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/pages/catalog_level_3_model.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/pages/catalog_level_4_product.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/CatchFormModal.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/callbackFormModal.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/callbackFormModal.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/catalog/product_page_default.htm">
           <value>
             <set />
           </value>
@@ -68,12 +393,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/index/reviews_swiper.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/layouts/scripts.htm">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/partials/navbar.htm">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/_buttons.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/_navbar.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/animations/!animations.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/animations/_transfusion.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/mixins/_!mixins.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/mixins/_transfusion.sass">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../themes/megallp/src/sass/styles.sass">
           <value>
             <set />
           </value>
